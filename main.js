@@ -1,10 +1,10 @@
-function findLengthOfTheLongestSubString(UserValue) {
+function findLengthOfTheLongestSubString(userValue) {
     let longestString = "";
-    for (let i = 0; i < UserValue.length; i++) {
-        if (longestString.includes(UserValue[i])) {
+    for (let i = 0; i < userValue.length; i++) {
+        if (longestString.includes(userValue[i])) {
             return longestString.length
         } else {
-            longestString += UserValue[i];
+            longestString += userValue[i];
         }
     }
     return longestString.length;
